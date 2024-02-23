@@ -3,7 +3,7 @@ import (
 "unicode"
   "strings"
 )
-
+// https://leetcode.com/problems/valid-palindrome/
 func isPalindrome(s string) bool {
     f := func(r rune) rune {
         if !unicode.IsLetter(r) && !unicode.IsNumber(r) {
